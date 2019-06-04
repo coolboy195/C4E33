@@ -134,19 +134,15 @@ console.log(j);
 
 // 8. Write a function that extracts the even items in a given integer list, named get_even_list, takes 1 parameter: l, where l is the given integer list ([1, 4, 5, -1, 10] for example), returns a new list contains only even numbers ([4, 10]
 let get_even_list = (a) => {
+	let b = [];
 	for (let i = 0; i < a.length, i++){
 		if (a[i] % 2  === 0){
-			conslole.log(a);
-		}
-		else if (a[i]%2 === 1){
-			a.splice(i, 1);
-			console.log(a);
+			b.push[a[i]];
+		return b;
 		}
 	}
-	return a;
 }
-let num = [1, 4, 5, -1, 10];
-get_even_list(num);
+
 
 
 // 9. Let’s take your function to the test. The tester will write his/her test code as follows:
