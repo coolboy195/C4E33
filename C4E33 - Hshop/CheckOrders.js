@@ -42,7 +42,7 @@ var config = {
             <div class="buyinfo">
                 <h3>Buyer - Info</h3>
                 <h4>Name buyer: ${data.namebuy}</h4>
-                <h4>Adress Buyer: ${data.adressbuy}</h4>
+                <h4>Adress Buyer: ${data.addressbuy}</h4>
                 <h4>Phone Buyer: ${data.phonebuy}</h4>
             </div>
         </div>
